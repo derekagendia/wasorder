@@ -249,8 +249,12 @@
                     <h4 class="text-uppercase font-weight-bold"><?php echo $row['name']?></h4>
                     <span class="badge badge-pill badge-info font-weight-bold"><?php echo $row['price']?> FCFA</span>
                 </div>
+                <div class="card-footer">
+                  <a href="" class="btn btn-success btn-sm mr-1">edit</a><a href="" class="btn btn-danger btn-sm mr-1">delete</a>
+                </div>
             </div>
-        </div>  <?php
+        </div>  
+        <?php
  }
                 } else 
                 {
