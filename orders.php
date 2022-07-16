@@ -20,6 +20,7 @@
 </head>
 
 <body class="">
+
   <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
     <div class="container-fluid">
       <!-- Toggler -->
@@ -189,6 +190,15 @@
       <div class="container-fluid">
         <div class="header-body">
           <!-- Card stats -->
+          <div class="row mb-5">
+            <div class="col-md-8"></div>
+            <div class="col-md-3">
+              
+              <!-- add orders modal -->
+<a href="store.php" class="btn btn-secondary">Add order</a>
+
+          </div>
+        </div>
           <div class="row">
             <div class="col-md-12">
             <div class="card">

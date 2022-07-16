@@ -69,7 +69,7 @@
                     </div>
                     <div class="mb-3">
                       <label for="" class="form-label">order date</label>
-                      <input type="date" class="form-control" name="date" readonly>
+                      <input type="text" class="form-control" name="date" value="<?php echo date('y-m-d H:i:s')?>" readonly>
                     </div>
                    
                     
